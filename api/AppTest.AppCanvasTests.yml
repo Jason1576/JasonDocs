@@ -1,0 +1,851 @@
+### YamlMime:ManagedReference
+items:
+- uid: AppTest.AppCanvasTests
+  commentId: T:AppTest.AppCanvasTests
+  id: AppCanvasTests
+  parent: AppTest
+  children:
+  - AppTest.AppCanvasTests.SetUp
+  - AppTest.AppCanvasTests.Test_ClearCanvas
+  - AppTest.AppCanvasTests.Test_DrawCircle
+  - AppTest.AppCanvasTests.Test_DrawLine
+  - AppTest.AppCanvasTests.Test_DrawRectangle
+  - AppTest.AppCanvasTests.Test_DrawTriangle
+  - AppTest.AppCanvasTests.Test_Instance_Singleton
+  - AppTest.AppCanvasTests.Test_MovePenToPosition
+  - AppTest.AppCanvasTests.Test_ResetCanvas
+  - AppTest.AppCanvasTests.Test_SetBitmap
+  - AppTest.AppCanvasTests.Test_SetCanvasSize
+  - AppTest.AppCanvasTests.Test_SetPenColor
+  - AppTest.AppCanvasTests.Test_WriteText
+  langs:
+  - csharp
+  - vb
+  name: AppCanvasTests
+  nameWithType: AppCanvasTests
+  fullName: AppTest.AppCanvasTests
+  type: Class
+  source:
+    remote:
+      path: AppTest/AppCanvasTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Jason1576.git
+    id: AppCanvasTests
+    path: ../AppTest/AppCanvasTests.cs
+    startLine: 8
+  assemblies:
+  - AppTest
+  namespace: AppTest
+  syntax:
+    content: >-
+      [TestFixture]
+
+      public class AppCanvasTests
+    content.vb: >-
+      <TestFixture>
+
+      Public Class AppCanvasTests
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  attributes:
+  - type: NUnit.Framework.TestFixtureAttribute
+    ctor: NUnit.Framework.TestFixtureAttribute.#ctor
+    arguments: []
+- uid: AppTest.AppCanvasTests.SetUp
+  commentId: M:AppTest.AppCanvasTests.SetUp
+  id: SetUp
+  parent: AppTest.AppCanvasTests
+  langs:
+  - csharp
+  - vb
+  name: SetUp()
+  nameWithType: AppCanvasTests.SetUp()
+  fullName: AppTest.AppCanvasTests.SetUp()
+  type: Method
+  source:
+    remote:
+      path: AppTest/AppCanvasTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Jason1576.git
+    id: SetUp
+    path: ../AppTest/AppCanvasTests.cs
+    startLine: 13
+  assemblies:
+  - AppTest
+  namespace: AppTest
+  syntax:
+    content: >-
+      [SetUp]
+
+      public void SetUp()
+    content.vb: >-
+      <SetUp>
+
+      Public Sub SetUp()
+  overload: AppTest.AppCanvasTests.SetUp*
+  attributes:
+  - type: NUnit.Framework.SetUpAttribute
+    ctor: NUnit.Framework.SetUpAttribute.#ctor
+    arguments: []
+- uid: AppTest.AppCanvasTests.Test_Instance_Singleton
+  commentId: M:AppTest.AppCanvasTests.Test_Instance_Singleton
+  id: Test_Instance_Singleton
+  parent: AppTest.AppCanvasTests
+  langs:
+  - csharp
+  - vb
+  name: Test_Instance_Singleton()
+  nameWithType: AppCanvasTests.Test_Instance_Singleton()
+  fullName: AppTest.AppCanvasTests.Test_Instance_Singleton()
+  type: Method
+  source:
+    remote:
+      path: AppTest/AppCanvasTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Jason1576.git
+    id: Test_Instance_Singleton
+    path: ../AppTest/AppCanvasTests.cs
+    startLine: 19
+  assemblies:
+  - AppTest
+  namespace: AppTest
+  syntax:
+    content: >-
+      [Test]
+
+      public void Test_Instance_Singleton()
+    content.vb: >-
+      <Test>
+
+      Public Sub Test_Instance_Singleton()
+  overload: AppTest.AppCanvasTests.Test_Instance_Singleton*
+  attributes:
+  - type: NUnit.Framework.TestAttribute
+    ctor: NUnit.Framework.TestAttribute.#ctor
+    arguments: []
+- uid: AppTest.AppCanvasTests.Test_SetCanvasSize
+  commentId: M:AppTest.AppCanvasTests.Test_SetCanvasSize
+  id: Test_SetCanvasSize
+  parent: AppTest.AppCanvasTests
+  langs:
+  - csharp
+  - vb
+  name: Test_SetCanvasSize()
+  nameWithType: AppCanvasTests.Test_SetCanvasSize()
+  fullName: AppTest.AppCanvasTests.Test_SetCanvasSize()
+  type: Method
+  source:
+    remote:
+      path: AppTest/AppCanvasTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Jason1576.git
+    id: Test_SetCanvasSize
+    path: ../AppTest/AppCanvasTests.cs
+    startLine: 26
+  assemblies:
+  - AppTest
+  namespace: AppTest
+  syntax:
+    content: >-
+      [Test]
+
+      public void Test_SetCanvasSize()
+    content.vb: >-
+      <Test>
+
+      Public Sub Test_SetCanvasSize()
+  overload: AppTest.AppCanvasTests.Test_SetCanvasSize*
+  attributes:
+  - type: NUnit.Framework.TestAttribute
+    ctor: NUnit.Framework.TestAttribute.#ctor
+    arguments: []
+- uid: AppTest.AppCanvasTests.Test_SetPenColor
+  commentId: M:AppTest.AppCanvasTests.Test_SetPenColor
+  id: Test_SetPenColor
+  parent: AppTest.AppCanvasTests
+  langs:
+  - csharp
+  - vb
+  name: Test_SetPenColor()
+  nameWithType: AppCanvasTests.Test_SetPenColor()
+  fullName: AppTest.AppCanvasTests.Test_SetPenColor()
+  type: Method
+  source:
+    remote:
+      path: AppTest/AppCanvasTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Jason1576.git
+    id: Test_SetPenColor
+    path: ../AppTest/AppCanvasTests.cs
+    startLine: 35
+  assemblies:
+  - AppTest
+  namespace: AppTest
+  syntax:
+    content: >-
+      [Test]
+
+      public void Test_SetPenColor()
+    content.vb: >-
+      <Test>
+
+      Public Sub Test_SetPenColor()
+  overload: AppTest.AppCanvasTests.Test_SetPenColor*
+  attributes:
+  - type: NUnit.Framework.TestAttribute
+    ctor: NUnit.Framework.TestAttribute.#ctor
+    arguments: []
+- uid: AppTest.AppCanvasTests.Test_DrawLine
+  commentId: M:AppTest.AppCanvasTests.Test_DrawLine
+  id: Test_DrawLine
+  parent: AppTest.AppCanvasTests
+  langs:
+  - csharp
+  - vb
+  name: Test_DrawLine()
+  nameWithType: AppCanvasTests.Test_DrawLine()
+  fullName: AppTest.AppCanvasTests.Test_DrawLine()
+  type: Method
+  source:
+    remote:
+      path: AppTest/AppCanvasTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Jason1576.git
+    id: Test_DrawLine
+    path: ../AppTest/AppCanvasTests.cs
+    startLine: 48
+  assemblies:
+  - AppTest
+  namespace: AppTest
+  syntax:
+    content: >-
+      [Test]
+
+      public void Test_DrawLine()
+    content.vb: >-
+      <Test>
+
+      Public Sub Test_DrawLine()
+  overload: AppTest.AppCanvasTests.Test_DrawLine*
+  attributes:
+  - type: NUnit.Framework.TestAttribute
+    ctor: NUnit.Framework.TestAttribute.#ctor
+    arguments: []
+- uid: AppTest.AppCanvasTests.Test_DrawCircle
+  commentId: M:AppTest.AppCanvasTests.Test_DrawCircle
+  id: Test_DrawCircle
+  parent: AppTest.AppCanvasTests
+  langs:
+  - csharp
+  - vb
+  name: Test_DrawCircle()
+  nameWithType: AppCanvasTests.Test_DrawCircle()
+  fullName: AppTest.AppCanvasTests.Test_DrawCircle()
+  type: Method
+  source:
+    remote:
+      path: AppTest/AppCanvasTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Jason1576.git
+    id: Test_DrawCircle
+    path: ../AppTest/AppCanvasTests.cs
+    startLine: 58
+  assemblies:
+  - AppTest
+  namespace: AppTest
+  syntax:
+    content: >-
+      [Test]
+
+      public void Test_DrawCircle()
+    content.vb: >-
+      <Test>
+
+      Public Sub Test_DrawCircle()
+  overload: AppTest.AppCanvasTests.Test_DrawCircle*
+  attributes:
+  - type: NUnit.Framework.TestAttribute
+    ctor: NUnit.Framework.TestAttribute.#ctor
+    arguments: []
+- uid: AppTest.AppCanvasTests.Test_ClearCanvas
+  commentId: M:AppTest.AppCanvasTests.Test_ClearCanvas
+  id: Test_ClearCanvas
+  parent: AppTest.AppCanvasTests
+  langs:
+  - csharp
+  - vb
+  name: Test_ClearCanvas()
+  nameWithType: AppCanvasTests.Test_ClearCanvas()
+  fullName: AppTest.AppCanvasTests.Test_ClearCanvas()
+  type: Method
+  source:
+    remote:
+      path: AppTest/AppCanvasTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Jason1576.git
+    id: Test_ClearCanvas
+    path: ../AppTest/AppCanvasTests.cs
+    startLine: 67
+  assemblies:
+  - AppTest
+  namespace: AppTest
+  syntax:
+    content: >-
+      [Test]
+
+      public void Test_ClearCanvas()
+    content.vb: >-
+      <Test>
+
+      Public Sub Test_ClearCanvas()
+  overload: AppTest.AppCanvasTests.Test_ClearCanvas*
+  attributes:
+  - type: NUnit.Framework.TestAttribute
+    ctor: NUnit.Framework.TestAttribute.#ctor
+    arguments: []
+- uid: AppTest.AppCanvasTests.Test_MovePenToPosition
+  commentId: M:AppTest.AppCanvasTests.Test_MovePenToPosition
+  id: Test_MovePenToPosition
+  parent: AppTest.AppCanvasTests
+  langs:
+  - csharp
+  - vb
+  name: Test_MovePenToPosition()
+  nameWithType: AppCanvasTests.Test_MovePenToPosition()
+  fullName: AppTest.AppCanvasTests.Test_MovePenToPosition()
+  type: Method
+  source:
+    remote:
+      path: AppTest/AppCanvasTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Jason1576.git
+    id: Test_MovePenToPosition
+    path: ../AppTest/AppCanvasTests.cs
+    startLine: 76
+  assemblies:
+  - AppTest
+  namespace: AppTest
+  syntax:
+    content: >-
+      [Test]
+
+      public void Test_MovePenToPosition()
+    content.vb: >-
+      <Test>
+
+      Public Sub Test_MovePenToPosition()
+  overload: AppTest.AppCanvasTests.Test_MovePenToPosition*
+  attributes:
+  - type: NUnit.Framework.TestAttribute
+    ctor: NUnit.Framework.TestAttribute.#ctor
+    arguments: []
+- uid: AppTest.AppCanvasTests.Test_DrawRectangle
+  commentId: M:AppTest.AppCanvasTests.Test_DrawRectangle
+  id: Test_DrawRectangle
+  parent: AppTest.AppCanvasTests
+  langs:
+  - csharp
+  - vb
+  name: Test_DrawRectangle()
+  nameWithType: AppCanvasTests.Test_DrawRectangle()
+  fullName: AppTest.AppCanvasTests.Test_DrawRectangle()
+  type: Method
+  source:
+    remote:
+      path: AppTest/AppCanvasTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Jason1576.git
+    id: Test_DrawRectangle
+    path: ../AppTest/AppCanvasTests.cs
+    startLine: 85
+  assemblies:
+  - AppTest
+  namespace: AppTest
+  syntax:
+    content: >-
+      [Test]
+
+      public void Test_DrawRectangle()
+    content.vb: >-
+      <Test>
+
+      Public Sub Test_DrawRectangle()
+  overload: AppTest.AppCanvasTests.Test_DrawRectangle*
+  attributes:
+  - type: NUnit.Framework.TestAttribute
+    ctor: NUnit.Framework.TestAttribute.#ctor
+    arguments: []
+- uid: AppTest.AppCanvasTests.Test_DrawTriangle
+  commentId: M:AppTest.AppCanvasTests.Test_DrawTriangle
+  id: Test_DrawTriangle
+  parent: AppTest.AppCanvasTests
+  langs:
+  - csharp
+  - vb
+  name: Test_DrawTriangle()
+  nameWithType: AppCanvasTests.Test_DrawTriangle()
+  fullName: AppTest.AppCanvasTests.Test_DrawTriangle()
+  type: Method
+  source:
+    remote:
+      path: AppTest/AppCanvasTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Jason1576.git
+    id: Test_DrawTriangle
+    path: ../AppTest/AppCanvasTests.cs
+    startLine: 94
+  assemblies:
+  - AppTest
+  namespace: AppTest
+  syntax:
+    content: >-
+      [Test]
+
+      public void Test_DrawTriangle()
+    content.vb: >-
+      <Test>
+
+      Public Sub Test_DrawTriangle()
+  overload: AppTest.AppCanvasTests.Test_DrawTriangle*
+  attributes:
+  - type: NUnit.Framework.TestAttribute
+    ctor: NUnit.Framework.TestAttribute.#ctor
+    arguments: []
+- uid: AppTest.AppCanvasTests.Test_WriteText
+  commentId: M:AppTest.AppCanvasTests.Test_WriteText
+  id: Test_WriteText
+  parent: AppTest.AppCanvasTests
+  langs:
+  - csharp
+  - vb
+  name: Test_WriteText()
+  nameWithType: AppCanvasTests.Test_WriteText()
+  fullName: AppTest.AppCanvasTests.Test_WriteText()
+  type: Method
+  source:
+    remote:
+      path: AppTest/AppCanvasTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Jason1576.git
+    id: Test_WriteText
+    path: ../AppTest/AppCanvasTests.cs
+    startLine: 103
+  assemblies:
+  - AppTest
+  namespace: AppTest
+  syntax:
+    content: >-
+      [Test]
+
+      public void Test_WriteText()
+    content.vb: >-
+      <Test>
+
+      Public Sub Test_WriteText()
+  overload: AppTest.AppCanvasTests.Test_WriteText*
+  attributes:
+  - type: NUnit.Framework.TestAttribute
+    ctor: NUnit.Framework.TestAttribute.#ctor
+    arguments: []
+- uid: AppTest.AppCanvasTests.Test_ResetCanvas
+  commentId: M:AppTest.AppCanvasTests.Test_ResetCanvas
+  id: Test_ResetCanvas
+  parent: AppTest.AppCanvasTests
+  langs:
+  - csharp
+  - vb
+  name: Test_ResetCanvas()
+  nameWithType: AppCanvasTests.Test_ResetCanvas()
+  fullName: AppTest.AppCanvasTests.Test_ResetCanvas()
+  type: Method
+  source:
+    remote:
+      path: AppTest/AppCanvasTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Jason1576.git
+    id: Test_ResetCanvas
+    path: ../AppTest/AppCanvasTests.cs
+    startLine: 112
+  assemblies:
+  - AppTest
+  namespace: AppTest
+  syntax:
+    content: >-
+      [Test]
+
+      public void Test_ResetCanvas()
+    content.vb: >-
+      <Test>
+
+      Public Sub Test_ResetCanvas()
+  overload: AppTest.AppCanvasTests.Test_ResetCanvas*
+  attributes:
+  - type: NUnit.Framework.TestAttribute
+    ctor: NUnit.Framework.TestAttribute.#ctor
+    arguments: []
+- uid: AppTest.AppCanvasTests.Test_SetBitmap
+  commentId: M:AppTest.AppCanvasTests.Test_SetBitmap
+  id: Test_SetBitmap
+  parent: AppTest.AppCanvasTests
+  langs:
+  - csharp
+  - vb
+  name: Test_SetBitmap()
+  nameWithType: AppCanvasTests.Test_SetBitmap()
+  fullName: AppTest.AppCanvasTests.Test_SetBitmap()
+  type: Method
+  source:
+    remote:
+      path: AppTest/AppCanvasTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Jason1576.git
+    id: Test_SetBitmap
+    path: ../AppTest/AppCanvasTests.cs
+    startLine: 122
+  assemblies:
+  - AppTest
+  namespace: AppTest
+  syntax:
+    content: >-
+      [Test]
+
+      public void Test_SetBitmap()
+    content.vb: >-
+      <Test>
+
+      Public Sub Test_SetBitmap()
+  overload: AppTest.AppCanvasTests.Test_SetBitmap*
+  attributes:
+  - type: NUnit.Framework.TestAttribute
+    ctor: NUnit.Framework.TestAttribute.#ctor
+    arguments: []
+references:
+- uid: AppTest
+  commentId: N:AppTest
+  href: AppTest.html
+  name: AppTest
+  nameWithType: AppTest
+  fullName: AppTest
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: AppTest.AppCanvasTests.SetUp*
+  commentId: Overload:AppTest.AppCanvasTests.SetUp
+  href: AppTest.AppCanvasTests.html#AppTest_AppCanvasTests_SetUp
+  name: SetUp
+  nameWithType: AppCanvasTests.SetUp
+  fullName: AppTest.AppCanvasTests.SetUp
+- uid: AppTest.AppCanvasTests.Test_Instance_Singleton*
+  commentId: Overload:AppTest.AppCanvasTests.Test_Instance_Singleton
+  href: AppTest.AppCanvasTests.html#AppTest_AppCanvasTests_Test_Instance_Singleton
+  name: Test_Instance_Singleton
+  nameWithType: AppCanvasTests.Test_Instance_Singleton
+  fullName: AppTest.AppCanvasTests.Test_Instance_Singleton
+- uid: AppTest.AppCanvasTests.Test_SetCanvasSize*
+  commentId: Overload:AppTest.AppCanvasTests.Test_SetCanvasSize
+  href: AppTest.AppCanvasTests.html#AppTest_AppCanvasTests_Test_SetCanvasSize
+  name: Test_SetCanvasSize
+  nameWithType: AppCanvasTests.Test_SetCanvasSize
+  fullName: AppTest.AppCanvasTests.Test_SetCanvasSize
+- uid: AppTest.AppCanvasTests.Test_SetPenColor*
+  commentId: Overload:AppTest.AppCanvasTests.Test_SetPenColor
+  href: AppTest.AppCanvasTests.html#AppTest_AppCanvasTests_Test_SetPenColor
+  name: Test_SetPenColor
+  nameWithType: AppCanvasTests.Test_SetPenColor
+  fullName: AppTest.AppCanvasTests.Test_SetPenColor
+- uid: AppTest.AppCanvasTests.Test_DrawLine*
+  commentId: Overload:AppTest.AppCanvasTests.Test_DrawLine
+  href: AppTest.AppCanvasTests.html#AppTest_AppCanvasTests_Test_DrawLine
+  name: Test_DrawLine
+  nameWithType: AppCanvasTests.Test_DrawLine
+  fullName: AppTest.AppCanvasTests.Test_DrawLine
+- uid: AppTest.AppCanvasTests.Test_DrawCircle*
+  commentId: Overload:AppTest.AppCanvasTests.Test_DrawCircle
+  href: AppTest.AppCanvasTests.html#AppTest_AppCanvasTests_Test_DrawCircle
+  name: Test_DrawCircle
+  nameWithType: AppCanvasTests.Test_DrawCircle
+  fullName: AppTest.AppCanvasTests.Test_DrawCircle
+- uid: AppTest.AppCanvasTests.Test_ClearCanvas*
+  commentId: Overload:AppTest.AppCanvasTests.Test_ClearCanvas
+  href: AppTest.AppCanvasTests.html#AppTest_AppCanvasTests_Test_ClearCanvas
+  name: Test_ClearCanvas
+  nameWithType: AppCanvasTests.Test_ClearCanvas
+  fullName: AppTest.AppCanvasTests.Test_ClearCanvas
+- uid: AppTest.AppCanvasTests.Test_MovePenToPosition*
+  commentId: Overload:AppTest.AppCanvasTests.Test_MovePenToPosition
+  href: AppTest.AppCanvasTests.html#AppTest_AppCanvasTests_Test_MovePenToPosition
+  name: Test_MovePenToPosition
+  nameWithType: AppCanvasTests.Test_MovePenToPosition
+  fullName: AppTest.AppCanvasTests.Test_MovePenToPosition
+- uid: AppTest.AppCanvasTests.Test_DrawRectangle*
+  commentId: Overload:AppTest.AppCanvasTests.Test_DrawRectangle
+  href: AppTest.AppCanvasTests.html#AppTest_AppCanvasTests_Test_DrawRectangle
+  name: Test_DrawRectangle
+  nameWithType: AppCanvasTests.Test_DrawRectangle
+  fullName: AppTest.AppCanvasTests.Test_DrawRectangle
+- uid: AppTest.AppCanvasTests.Test_DrawTriangle*
+  commentId: Overload:AppTest.AppCanvasTests.Test_DrawTriangle
+  href: AppTest.AppCanvasTests.html#AppTest_AppCanvasTests_Test_DrawTriangle
+  name: Test_DrawTriangle
+  nameWithType: AppCanvasTests.Test_DrawTriangle
+  fullName: AppTest.AppCanvasTests.Test_DrawTriangle
+- uid: AppTest.AppCanvasTests.Test_WriteText*
+  commentId: Overload:AppTest.AppCanvasTests.Test_WriteText
+  href: AppTest.AppCanvasTests.html#AppTest_AppCanvasTests_Test_WriteText
+  name: Test_WriteText
+  nameWithType: AppCanvasTests.Test_WriteText
+  fullName: AppTest.AppCanvasTests.Test_WriteText
+- uid: AppTest.AppCanvasTests.Test_ResetCanvas*
+  commentId: Overload:AppTest.AppCanvasTests.Test_ResetCanvas
+  href: AppTest.AppCanvasTests.html#AppTest_AppCanvasTests_Test_ResetCanvas
+  name: Test_ResetCanvas
+  nameWithType: AppCanvasTests.Test_ResetCanvas
+  fullName: AppTest.AppCanvasTests.Test_ResetCanvas
+- uid: AppTest.AppCanvasTests.Test_SetBitmap*
+  commentId: Overload:AppTest.AppCanvasTests.Test_SetBitmap
+  href: AppTest.AppCanvasTests.html#AppTest_AppCanvasTests_Test_SetBitmap
+  name: Test_SetBitmap
+  nameWithType: AppCanvasTests.Test_SetBitmap
+  fullName: AppTest.AppCanvasTests.Test_SetBitmap

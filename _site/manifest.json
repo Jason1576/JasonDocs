@@ -1,0 +1,518 @@
+{
+  "source_base_path": "C:/Users/Acer/source/repos/ase-demo-assignment-Jason1576/ASEassignment",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASEassignment.AppArray.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASEassignment.AppArray.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASEassignment.AppBoolean.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASEassignment.AppBoolean.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASEassignment.AppCanvas.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASEassignment.AppCanvas.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASEassignment.AppCircle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASEassignment.AppCircle.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASEassignment.AppClear.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASEassignment.AppClear.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASEassignment.AppCommandFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASEassignment.AppCommandFactory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASEassignment.AppCompoundCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASEassignment.AppCompoundCommand.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASEassignment.AppConditionalCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASEassignment.AppConditionalCommand.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASEassignment.AppElse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASEassignment.AppElse.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASEassignment.AppEnd.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASEassignment.AppEnd.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASEassignment.AppFor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASEassignment.AppFor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASEassignment.AppIf.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASEassignment.AppIf.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASEassignment.AppInt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASEassignment.AppInt.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASEassignment.AppMethodd.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASEassignment.AppMethodd.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASEassignment.AppParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASEassignment.AppParser.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASEassignment.AppPeek.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASEassignment.AppPeek.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASEassignment.AppPoke.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASEassignment.AppPoke.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASEassignment.AppReal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASEassignment.AppReal.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASEassignment.AppRect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASEassignment.AppRect.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASEassignment.AppReset.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASEassignment.AppReset.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASEassignment.AppStoredProgram.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASEassignment.AppStoredProgram.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASEassignment.AppTriangle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASEassignment.AppTriangle.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASEassignment.AppWhile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASEassignment.AppWhile.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASEassignment.AppWrite.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASEassignment.AppWrite.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASEassignment.Form1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASEassignment.Form1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASEassignment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASEassignment.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AppTest.AppArrayTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AppTest.AppArrayTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AppTest.AppBooleanTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AppTest.AppBooleanTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AppTest.AppCanvasTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AppTest.AppCanvasTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AppTest.AppCircleTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AppTest.AppCircleTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AppTest.AppClearTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AppTest.AppClearTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AppTest.AppCompoundCommandTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AppTest.AppCompoundCommandTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AppTest.AppElseTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AppTest.AppElseTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AppTest.AppForTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AppTest.AppForTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AppTest.AppIfTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AppTest.AppIfTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AppTest.AppIntTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AppTest.AppIntTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AppTest.AppMethodTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AppTest.AppMethodTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AppTest.AppRealTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AppTest.AppRealTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AppTest.AppStoredProgramTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AppTest.AppStoredProgramTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AppTest.AppWhileTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AppTest.AppWhileTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AppTest.AppWriteTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AppTest.AppWriteTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AppTest.Tests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AppTest.Tests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AppTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AppTest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
